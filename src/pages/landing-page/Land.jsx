@@ -48,18 +48,18 @@ const Land = () => {
             <div className="row">
       
               <div className=" col-lg-4 col-md-4 col-sm cards">
-                <img className='team-img' src="./assets/teams/design/pavan-kulkarni.png" alt="" />
-              <p><b><h4>Pawan Kulkarni</h4></b></p>
-              <p>Chair</p>
+                <img className='team-img object-contain w-[80px]' src="./assets/teams/design/pavan-kulkarni.png" alt="" />
+              <p><b><h4>Pavan Kulkarni</h4></b></p>
+              <p><b>Chair</b></p>
                 <div >
                 <a href='https://www.linkedin.com/in/pavan-kulkarni-77507b253/'><button className='view-btn m-5'>LinkedIn </button></a>
                 </div>
 
               </div>
               <div className="col-lg-4 col-md-4 col-sm cards">
-                <img className='team-img' src="./assets/doc.png" alt="" />
+                <img className='team-img object-contain w-[80px]'  src="./assets/doc.png" alt="" />
                 <p><b><h4>Sumit Karanjkar</h4></b></p>
-                <p>Vice - Chair</p>
+                <p><b>Vice - Chair</b></p>
                 <div >
                 <a href='https://www.linkedin.com/in/sumit-karanjkar-6285a0229/'><button className='view-btn m-5'>LinkedIn </button></a>
                 </div>
@@ -68,7 +68,7 @@ const Land = () => {
               <div className="col-lg-4 col-md-4 col-sm cards">
                 <img className='team-img' src="./assets/teams/coreMembers/Vaibhavi-Kulkarni.jpg" alt="" />
               <p><b><h4>Vaibhavi Kulkarni</h4></b></p>
-                <p>Secretary</p>
+                <p><b>Secretary</b></p>
                 <div >
                 <a href='https://www.linkedin.com/in/vaibhavikulkarni25/'><button className='view-btn m-5'>LinkedIn </button></a>
                 </div>
@@ -76,8 +76,8 @@ const Land = () => {
 
               <div className="col-lg-4 col-md-4 col-sm cards">
                 <img className='team-img' src="./assets/teams/coreMembers/anand.jpg" alt="" />
-              <p><b><h4>Anand Dadiwal</h4></b></p>
-                <p>Treasurer</p>
+              <p className='m-2'><b><h4>Anand Dadiwal</h4></b></p>
+                <p className='text-lg'><b>Treasurer</b></p>
                 <div >
                   <a href='https://www.linkedin.com/in/anand-dhadiwal-027076231'><button className='view-btn m-5'>LinkedIn </button></a>
                 </div>

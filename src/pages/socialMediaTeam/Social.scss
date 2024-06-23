@@ -130,7 +130,10 @@
        transition: 0.3ms;
        overflow: hidden;
     }
-    
+    img {
+        object-fit: contain;
+        width: 100px;
+    }
         .cards:hover {
               box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
               transform: translateY(-10px); /* Pop up effect */

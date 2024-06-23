@@ -144,6 +144,10 @@
         margin: 10px auto; /* Add some margin for spacing between cards */
       }
   
+      img {
+        object-fit: contain;
+        width: 100px;
+    }
       .cards:hover {
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         transform: translateY(-10px); /* Pop up effect */

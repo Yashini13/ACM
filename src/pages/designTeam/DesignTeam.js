@@ -36,7 +36,7 @@ const SocialTeam = () => {
 
               </div>
               <div className=" col-lg-4 col-md-4 col-sm cards">
-                <img className='team-img' src="./assets/teams/design/Prajakta-Satav.png" alt="" />
+                <img className='team-img object-contain w-[80px]' src="./assets/teams/design/Prajakta-Satav.png" alt="" />
                 <p className='m-2 p-2'><h4>Prajakta Satav </h4></p>
                 <a href='https://www.linkedin.com/in/prajakta-satav-630823257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' ><button className='view-btn'>LinkedIn</button></a>
                 
