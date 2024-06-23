@@ -37,6 +37,68 @@ const Land = () => {
         </div>
       </section>
 
+  
+      <section className="teams">
+        <div className="container">
+          <div className='title'>
+            Core Members
+            <hr />
+          </div>
+          <div className='cardContainer'>
+            <div className="row">
+      
+              <div className=" col-lg-4 col-md-4 col-sm cards">
+                <img className='team-img' src="./assets/teams/design/pavan-kulkarni.png" alt="" />
+              <p><b><h4>Pawan Kulkarni</h4></b></p>
+              <p>Chair</p>
+                <div >
+                <a href='https://www.linkedin.com/in/pavan-kulkarni-77507b253/'><button className='view-btn m-5'>LinkedIn </button></a>
+                </div>
+
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm cards">
+                <img className='team-img' src="./assets/doc.png" alt="" />
+                <p><b><h4>Sumit Karanjkar</h4></b></p>
+                <p>Vice - Chair</p>
+                <div >
+                <a href='https://www.linkedin.com/in/sumit-karanjkar-6285a0229/'><button className='view-btn m-5'>LinkedIn </button></a>
+                </div>
+              </div>
+              
+              <div className="col-lg-4 col-md-4 col-sm cards">
+                <img className='team-img' src="./assets/teams/coreMembers/Vaibhavi-Kulkarni.jpg" alt="" />
+              <p><b><h4>Vaibhavi Kulkarni</h4></b></p>
+                <p>Secretary</p>
+                <div >
+                <a href='https://www.linkedin.com/in/vaibhavikulkarni25/'><button className='view-btn m-5'>LinkedIn </button></a>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-4 col-sm cards">
+                <img className='team-img' src="./assets/teams/coreMembers/anand.jpg" alt="" />
+              <p><b><h4>Anand Dadiwal</h4></b></p>
+                <p>Treasurer</p>
+                <div >
+                  <a href='https://www.linkedin.com/in/anand-dhadiwal-027076231'><button className='view-btn m-5'>LinkedIn </button></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
 
       <section className="teams">
         <div className="container">
@@ -46,48 +108,53 @@ const Land = () => {
           </div>
           <div className='cardContainer'>
             <div className="row">
-              <div className="col-lg-4 col-md-4 col-sm cards">
+              {/* <div className="col-lg-4 col-md-4 col-sm cards">
                 <img className='team-img' src="./assets/content.png" alt="" />
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem molestiae mollitia cumque. Error, saepe voluptate.</p>
                 <div >
                   <Link to="/content-team"><button className='view-btn'>MEET </button></Link>
                 </div>
 
-              </div>
+              </div> */}
+              
               <div className=" col-lg-4 col-md-4 col-sm cards">
+              <p><b>Design Team</b></p>
                 <img className='team-img' src="./assets/design.png" alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem molestiae mollitia cumque. Error, saepe voluptate.</p>
+                <p>Design team is a group of students responsible for crafting of flyers and social media posts of ACM.</p>
                 <div >
                   <Link to="/design-team"><button className='view-btn'>MEET </button></Link>
                 </div>
 
               </div>
               <div className="col-lg-4 col-md-4 col-sm cards">
+              <p><b>Documentation Team</b></p>
                 <img className='team-img' src="./assets/doc.png" alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem molestiae mollitia cumque. Error, saepe voluptate.</p>
+                <p>Documentation team is a group of students responsible for documentation and regiration of events, formating official letters.</p>
                 <div >
                   <Link to="/documentation-team"><button className='view-btn'>MEET </button></Link>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-4 col-sm cards">
+              {/* <div className="col-lg-4 col-md-4 col-sm cards">
                 <img className='team-img' src="./assets/publicity.png" alt="" />
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem molestiae mollitia cumque. Error, saepe voluptate.</p>
                 <div >
                   <Link to="/publicity-team"><button className='view-btn'>MEET </button></Link>
                 </div>
 
-              </div>
+              </div> */}
               <div className="col-lg-4 col-md-4 col-sm cards">
+              <p><b>Web Devlopment Team</b></p>
                 <img className='team-img' src="./assets/web.png" alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem molestiae mollitia cumque. Error, saepe voluptate.</p>
+                <p>Web team is a group of persons responsible for design, development and maintainance of website.</p>
                 <div >
                   <Link to="/web-team"><button className='view-btn'>MEET </button></Link>
                 </div>
 
               </div>
               <div className="col-lg-4 col-md-4 col-sm cards">
+              <p><b>Social Media Team</b></p>
                 <img className='team-img' src="./assets/soc.png" alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem molestiae mollitia cumque. Error, saepe voluptate.</p>
+                <p>Social Media is a group of students responsible increasing the outreach on social media platforms.</p>
                 <div >
                   <Link to="/social-team"><button className='view-btn'>MEET </button></Link>
                 </div>
